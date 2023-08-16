@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-15T11:49:10 IST" name="Testing Google Apps" finished-at="2023-08-15T11:49:47 IST" duration-ms="36361">
+    <groups>
+    </groups>
+    <test started-at="2023-08-15T11:49:10 IST" name="Regression" finished-at="2023-08-15T11:49:47 IST" duration-ms="36361">
+      <class name="org.Assignment4">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:org.Assignment4@3c153a1]" started-at="2023-08-15T11:49:22 IST" name="LaunchBrowser" finished-at="2023-08-15T11:49:26 IST" duration-ms="3870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="openURL()[pri:0, instance:org.Assignment4@3c153a1]" started-at="2023-08-15T11:49:26 IST" name="openURL" finished-at="2023-08-15T11:49:32 IST" duration-ms="5953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method signature="W3SchoolsTest()[pri:0, instance:org.Assignment4@3c153a1]" started-at="2023-08-15T11:49:32 IST" name="W3SchoolsTest" finished-at="2023-08-15T11:49:45 IST" duration-ms="13535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- W3SchoolsTest -->
+        <test-method is-config="true" signature="closeBrowserWindow()[pri:0, instance:org.Assignment4@3c153a1]" started-at="2023-08-15T11:49:45 IST" name="closeBrowserWindow" finished-at="2023-08-15T11:49:47 IST" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserWindow -->
+      </class> <!-- org.Assignment4 -->
+      <class name="org.Assignment3">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:org.Assignment3@657c8ad9]" started-at="2023-08-15T11:49:10 IST" name="LaunchBrowser" finished-at="2023-08-15T11:49:15 IST" duration-ms="4540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="openURL()[pri:0, instance:org.Assignment3@657c8ad9]" started-at="2023-08-15T11:49:15 IST" name="openURL" finished-at="2023-08-15T11:49:21 IST" duration-ms="6109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method signature="GooglePageTest()[pri:0, instance:org.Assignment3@657c8ad9]" started-at="2023-08-15T11:49:21 IST" name="GooglePageTest" finished-at="2023-08-15T11:49:21 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GooglePageTest -->
+        <test-method is-config="true" signature="closeBrowserWindow()[pri:0, instance:org.Assignment3@657c8ad9]" started-at="2023-08-15T11:49:21 IST" name="closeBrowserWindow" finished-at="2023-08-15T11:49:22 IST" duration-ms="995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserWindow -->
+      </class> <!-- org.Assignment3 -->
+    </test> <!-- Regression -->
+  </suite> <!-- Testing Google Apps -->
+</testng-results>
